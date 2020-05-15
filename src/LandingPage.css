@@ -2,9 +2,10 @@
 * {
 	box-sizing: border-box;
 }
-@media screen and (max-width: 1265px) {
- 
 
+
+@media screen and (min-width: 300px) {
+ 
 
 body {
   margin: 0;
@@ -33,6 +34,11 @@ h1{
    justify-content: center;
    
 
+}
+.circle{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .mobileImage{
 display: flex;
@@ -162,7 +168,7 @@ input {
 
 }
  /* desktop */
-@media screen and (min-width: 1266px) {
+@media screen and (min-width: 1040px) {
  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300;1,600&display=swap');
 * {
 	box-sizing: border-box;
@@ -198,7 +204,7 @@ h1,h2,h3{
     .leftColumn{
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: left;
         padding-left: 150px;
         padding-top: 50px;
         
@@ -211,7 +217,7 @@ h1,h2,h3{
     }
     .headSubTitle{
         padding-top: 5px;
-             letter-spacing: 15px;
+        letter-spacing: 15px;
 
     }
     .info{
@@ -223,8 +229,13 @@ h1,h2,h3{
 
         
     }
-    .middle{
+    .headingTitle{
         padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-content: left;
+        ;
+      
     }
   
     .emailBox {
