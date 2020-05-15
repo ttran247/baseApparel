@@ -12,10 +12,10 @@ function LandingPage() {
                 <div className="leftColumn">
                     <div className="top">
                         <div className="circle">
-                            <img src={logo}/>
+                            <img className="logo" src={logo} />
                         </div>
 
-                       
+
 
                     </div>
                     <div className="mobileContainer">
